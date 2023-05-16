@@ -1,0 +1,67 @@
+<svg width="110" height="140" viewBox="0 0 110 140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-2.2%" y="-2.6%" width="104.3%" height="110.3%" filterUnits="objectBoundingBox" id="46135vcouf">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.762050484 0 0 0 0 1 0 0 0 0 0.556383384 0 0 0 0.332386364 0" in="shadowOffsetOuter1"/>
+        </filter>
+        <filter x="-15.2%" y="-17.9%" width="130.4%" height="141%" filterUnits="objectBoundingBox" id="ckobwgxvvh">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="6" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.559959572 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-1.9%" y="-2%" width="103.9%" height="107.8%" filterUnits="objectBoundingBox" id="x9x3e3mhsi">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.643092016 0 0 0 0 0.955615942 0 0 0 0 0.58221921 0 0 0 0.714215472 0" in="shadowOffsetOuter1"/>
+        </filter>
+        <filter x="-52.2%" y="-62.2%" width="204.5%" height="224.5%" filterUnits="objectBoundingBox" id="53rt0jo3jl">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"/>
+        </filter>
+        <filter x="-98.2%" y="-55.6%" width="296.4%" height="211.1%" filterUnits="objectBoundingBox" id="gm62pvcc9m">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+        </filter>
+        <linearGradient x1="50%" y1="2.576%" x2="50%" y2="100%" id="5yr1xgg6xb">
+            <stop stop-color="#BBEE8F" offset="0%"/>
+            <stop stop-color="#54CB57" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="9.894%" x2="71.662%" y2="81.159%" id="gppzrqg8ye">
+            <stop stop-color="#89AF2D" offset="0%"/>
+            <stop stop-color="#3F591F" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lhr6v7hssk">
+            <stop stop-color="#7FD9F0" offset="0%"/>
+            <stop stop-color="#097DFF" offset="100%"/>
+        </linearGradient>
+        <path d="M44 0c10.838 0 19.998 7.782 22.978 18.47C79.588 26.206 88 40.12 88 56c0 24.3-19.7 44-44 44S0 80.3 0 56c0-15.88 8.412-29.794 21.022-37.53C24.002 7.781 33.162 0 44 0z" id="cza9d6piea"/>
+        <path d="M7.667 79.809c4.234 0 7.666-3.444 7.666-7.693 0-4.248-3.432-7.692-7.666-7.692C3.432 64.424 0 67.868 0 72.116c0 4.249 3.432 7.693 7.667 7.693zm30.666 0c4.235 0 7.667-3.444 7.667-7.693 0-4.248-3.432-7.692-7.667-7.692-4.234 0-7.666 3.444-7.666 7.692 0 4.249 3.432 7.693 7.666 7.693zM23.5 92.057c11.598 0 21-7.277 21 0 0 7.278-9.402 11.367-21 11.367s-21-4.09-21-11.367c0-7.277 9.402 0 21 0z" id="bwpyiunnfg"/>
+        <path d="m25.794 0 14.152 27.983c3.954 7.816.822 17.357-6.994 21.31A15.86 15.86 0 0 1 25.794 51c-8.76 0-15.86-7.1-15.86-15.86 0-2.486.585-4.938 1.707-7.157L25.794 0z" id="b735eli1nj"/>
+        <radialGradient cx="50%" cy="50.788%" fx="50%" fy="50.788%" r="49.212%" id="9qq3i64f8c">
+            <stop stop-color="#FF8100" stop-opacity=".539" offset="0%"/>
+            <stop stop-color="#B3A100" stop-opacity="0" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(10 34)">
+            <mask id="5i50hcs01d" fill="#fff">
+                <use xlink:href="#cza9d6piea"/>
+            </mask>
+            <use fill="url(#5yr1xgg6xb)" fill-rule="nonzero" xlink:href="#cza9d6piea"/>
+            <circle fill="url(#9qq3i64f8c)" mask="url(#5i50hcs01d)" cx="68" cy="61" r="14"/>
+            <circle fill="url(#9qq3i64f8c)" mask="url(#5i50hcs01d)" cx="12" cy="61" r="14"/>
+            <path d="M44 1.5c5.001 0 9.618 1.778 13.347 4.776 3.856 3.1 6.765 7.5 8.186 12.597.053.19.103.379.152.569.17.1.34.203.509.307C78.374 27.22 86.5 40.662 86.5 56c0 11.736-4.757 22.361-12.448 30.052C66.362 93.743 55.736 98.5 44 98.5s-22.361-4.757-30.052-12.448C6.257 78.362 1.5 67.736 1.5 56c0-15.338 8.126-28.779 20.306-36.252l.51-.309c.048-.189.098-.378.15-.567 1.422-5.097 4.331-9.497 8.187-12.597C34.383 3.278 39 1.5 44 1.5z" stroke-opacity=".402" stroke="#C4DAB7" stroke-width="3" mask="url(#5i50hcs01d)"/>
+        </g>
+        <path d="M36.6 12.813c.578-2.045-.65-4.166-2.685-4.635l-1.443-.333-.06-.013c-2.037-.47-4.04.908-4.378 3.01L25.162 27.89c-.21 1.311.603 2.567 1.868 2.884l.03.036.72.152.722.18.006-.027c1.277.27 2.54-.51 2.902-1.788l5.19-16.514zM2.024 1.164C1.46 6.526 3.81 12.261 8.63 15.95c4.82 3.688 10.848 4.367 15.698 2.285.563-5.362-1.787-11.096-6.606-14.785C12.903-.239 6.874-.917 2.024 1.164" fill="url(#gppzrqg8ye)" transform="translate(25 8.576)"/>
+        <g transform="translate(25 8.576)">
+            <use fill="#000" filter="url(#46135vcouf)" xlink:href="#bwpyiunnfg"/>
+            <use fill-opacity=".412" fill="#336F14" xlink:href="#bwpyiunnfg"/>
+            <use fill="#000" filter="url(#ckobwgxvvh)" xlink:href="#bwpyiunnfg"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 107.994 22.247)">
+            <use fill="#000" filter="url(#x9x3e3mhsi)" xlink:href="#b735eli1nj"/>
+            <use fill="url(#lhr6v7hssk)" xlink:href="#b735eli1nj"/>
+        </g>
+        <path d="M22.664 42.612a13.918 13.918 0 0 0 6.224 1.469c2.627 0 5.085-.728 7.181-1.993a12.424 12.424 0 0 1-10.535 5.826c-1.93 0-3.835-.45-5.562-1.313-6.05-3.025-8.558-10.317-5.698-16.406l.136-.28.64-1.283c-.621 5.628 2.254 11.3 7.614 13.98z" fill-opacity=".367" fill="#FFF" filter="url(#53rt0jo3jl)" transform="translate(56.406 22.247)"/>
+        <path d="M24.736 9.488a2.5 2.5 0 0 1 3.245 1.055l.078.152 10.275 22a2.5 2.5 0 0 1-4.452 2.269l-.078-.153-10.275-22a2.5 2.5 0 0 1 1.207-3.323z" fill-opacity=".538" fill="#FFF" fill-rule="nonzero" filter="url(#gm62pvcc9m)" transform="translate(56.406 22.247)"/>
+    </g>
+</svg>

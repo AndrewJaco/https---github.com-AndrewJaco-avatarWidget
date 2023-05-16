@@ -1,0 +1,65 @@
+  // const InitialPic = ({name}) =>{
+  //   const [bgColor, setBgColor] = useState("#e4d2ff");
+    
+  //   const initials = name
+  //     .split(" ")
+  //     .map((word) => word.charAt(0).toUpperCase())
+  //     .join("");
+
+  //   const canvasSize = 244
+  //   const fontSize = 120
+  //   const canvas = document.createElement("canvas")
+  //   canvas.width = canvasSize
+  //   canvas.height = canvasSize
+  //   const ctx = canvas.getContext("2d")
+  //   ctx.fillStyle = bgColor
+  //   ctx.beginPath()
+  //   ctx.arc(canvasSize / 2, canvasSize / 2, canvasSize / 2, 0, Math.PI * 2)
+  //   ctx.fill()
+  //   ctx.textAlign = "center"
+  //   ctx.fillStyle = darkenColor(bgColor)
+  //   ctx.font = `bold ${fontSize}px Arial`
+  //   ctx.fillText(initials, canvasSize / 2, canvasSize / 2 + fontSize / 3)
+
+  //   const imageUrl = canvas.toDataURL();
+
+  //   const handleColorChange = (newColor) => {
+  //     setBgColor(newColor)  
+  //   };
+
+    
+
+  //   return (
+  //     <div className="flex flex-col content-center m-40">
+  //       <div className="flex justify-center">
+  //         <img
+  //           src={imageUrl}
+  //           alt="Profile avatar"
+  //           className="w-60 h-60 mb-4 rounded-full object-cover object-center inline-block"
+  //         />
+  //       </div>
+  //       <div className="flex justify-center">
+  //         {["#e4d2ff", "#373c39", "#ffd1d2", "#ffe8d0", "#d2ffcf", "#ececec"].map(
+  //           (c) => (
+  //             <div
+  //               key={c}
+  //               className="m-1 cursor-pointer rounded-full"         
+  //               onClick={() => handleColorChange(c)}
+  //               style={{ backgroundColor: c }}
+  //               >
+  //                 <div
+  //                   className={classNames(
+  //                   "rounded-full w-16 h-16",
+  //                   {
+  //                     "ring-2 ring-offset-2 ring-emerald-400": bgColor === c
+  //                   })}
+  //                 >
+
+  //                 </div>
+  //             </div>
+  //           )
+  //         )}
+  //       </div>
+  //     </div>
+  //   )
+  // }
